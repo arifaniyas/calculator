@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./cal.css">
+
+</head>
+<body>
+    
+        <div class="container">
+    
+        <div class="calculator">
+            <form>
+                <div>
+                    
+        <input type="text" id="display"  ></div>
+        <div >
+           
+             <button type="button" class="btn" onclick="allClear()" >AC</button>
+             <button type="button" class="btn" onclick="backSpace()" >DEL</button>
+             <button  type="button"class="btn" onclick="disData('.')" >.</button>
+             <button type="button" class="btn" onclick="disData('/')" >/</button>
+        </div>
+        <div>
+
+             <button type="button" class="btn" onclick="disData(7)" >7</button>
+             <button type="button"class="btn" onclick="disData(8)" >8</button>
+             <button type="button" class="btn" onclick="disData(9)" >9</button>
+             <button type="button"class="btn" onclick="disData('*')" >*</button>
+
+        </div>
+        <div>
+            <button type="button" class="btn" onclick="disData(4)" >4</button>
+            <button type="button" class="btn" onclick="disData(5)" >5</button>
+            <button type="button" class="btn" onclick="disData(6)" >6</button>
+            <button type="button" class="btn" onclick="disData('/')" >/</button>
+
+        </div>
+        <div>
+            
+            <button type="button" class="btn" onclick="disData(1)" >1</button>
+            <button type="button" class="btn" onclick="disData(2)" >2</button>
+            <button type="button" class="btn" onclick="disData(3)" >3</button>
+            <button type="button" class="btn" onclick="disData('+')" >+</button>
+
+           
+        </div>
+        <div>
+            
+            <button type="button" class="btn" onclick="disData('00')" >00</button>
+            <button type="button" class="btn" onclick="disData(0)" >0</button>
+            <button type="button" class="btn" onclick="outputOp()" >=</button>
+            <button type="button" class="btn" onclick="disData('%')" >%</button>
+
+           
+        </div>
+        
+    </form>
+    <div >
+           
+            
+
+    </div>
+    </div>
+</div>
+
+</body>
+<script src="./cal.js"></script>
+</html>
+        
+        
+        
+    
